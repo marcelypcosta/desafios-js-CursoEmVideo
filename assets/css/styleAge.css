@@ -1,0 +1,70 @@
+/* Settings */
+@import url('https://fonts.googleapis.com/css2?family= família = Anton &Orbitron & display=swap');
+
+:root{
+    --cor--backgroud--principal: #fcdc04;
+    --cor--background--main: #fff;
+    --font--1: 'Orbitron', sans-serif;
+}
+
+/* Main */
+
+body{
+    background: var(--cor--backgroud--principal);
+}
+
+.tittle{
+    font-size: 40px;
+    font-family: var(--font--1);
+    font-weight: 700;
+    text-align: center;
+    margin: 20px;
+}
+
+
+.div--dados{
+    background: var(--cor--background--main);
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 350px;
+
+    padding: 15px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.div--yearBirth{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+
+.div--sexo{
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    width: 70px;
+    margin: 0 auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.resultado{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    font-family: var(--font--1);
+}
+
+footer{
+    font-size: 15px;
+    font-family: var(--font--1);
+    margin: 20px;
+    text-align: center;
+}

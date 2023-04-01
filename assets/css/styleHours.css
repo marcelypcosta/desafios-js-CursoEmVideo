@@ -1,0 +1,50 @@
+/* Settings */
+@import url('https://fonts.googleapis.com/css2?family= família = Anton &Orbitron & display=swap');
+
+:root{
+    --cor--backgroud--principal: #fcdc04;
+    --font--1: 'Orbitron', sans-serif;
+}
+
+/* Main */
+body{
+    background: var(--cor--backgroud--principal);
+}
+
+.tittle{
+    font-size: 40px;
+    font-family: var(--font--1);
+    font-weight: 700;
+    text-align: center;
+    margin: 20px;
+}
+
+.caixa{
+    color: #fff;
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+    border: solid #fff 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    margin: auto;
+}
+
+.main--hora{
+    font-size: 60px;
+    font-family: var(--font--1);
+    font-weight: 900;
+    margin: 50px;
+    line-height: 40px;
+}
+
+footer{
+    font-size: 15px;
+    font-family: var(--font--1);
+    margin: 20px;
+    text-align: center;
+}
