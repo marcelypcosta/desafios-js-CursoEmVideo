@@ -2,4 +2,4 @@
 
 DESAFIO 1: Criar uma página web que mude seu layout de acordo com o perído do dia
 
-DESAFIO 2: Criar uma página web que recebe a idade e o sexo do usuário e mostrar na tela a idade e uma imagem de referência
+DESAFIO 2: Criar uma página web que recebe ano de nascimento e o sexo do usuário e mostrar na tela a idade e uma imagem de referência
